@@ -1,26 +1,25 @@
-let binaryOperation = '';
-let equation = '';
+let binaryEquation = '';
 let operationPressed = false;
 
 const clickOnNumber = (btn) => {
     let response = document.getElementById("res");
-    binaryOperation+=btn.target.getAttribute('value');
-    response.innerHTML = binaryOperation;
+    binaryEquation+=btn.target.getAttribute('value');
+    response.innerHTML = binaryEquation;
 };
 
 const clickOnOperation = (btn) => {
     if(! operationPressed){
         let response = document.getElementById("res");
-        binaryOperation+=btn.target.getAttribute('value');
-        response.innerHTML = binaryOperation;
+        binaryEquation+=btn.target.getAttribute('value');
+        response.innerHTML = binaryEquation;
         operationPressed = true
     }
 };
 
 const clickOnClear = () => {
     let response = document.getElementById("res");
-    binaryOperation="";
-    response.innerHTML = binaryOperation;
+    binaryEquation="";
+    response.innerHTML = binaryEquation;
 };
 
 const setButtonFunction = () =>{
