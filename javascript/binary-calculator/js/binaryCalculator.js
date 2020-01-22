@@ -48,6 +48,8 @@ const clickOnEql = () => {
         let num2 = parseInt(values[1],2);
         result.innerHTML = (Math.floor(num1/num2)).toString(2);
     }
+    binaryEquation = '';
+    operationPressed = false;
 
 };
 
