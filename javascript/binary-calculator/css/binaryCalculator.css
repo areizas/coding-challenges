@@ -1,0 +1,32 @@
+.body {
+    width: 33%;
+}
+
+.resultDisplay {
+    background-color: lightgray;
+    border: solid;
+    height: 48px;
+}
+
+button {
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+}
+
+.buttonNumbers {
+    background-color: lightgreen;
+    color: brown;
+}
+
+.buttonUtils {
+    background-color: darkgreen;
+    color: white;
+}
+
+.buttonOperations {
+    background-color: black;
+    color: red;
+}
